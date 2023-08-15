@@ -3,63 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="mystyle.css">
-    <title>Portfolio</title>
+    <title>Portfolio | Robby Arsyadani</title>
+    <link rel="icon" href="img/IMG20230721095708-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!--navbar-->
-    <div class="navbar">
-        <nav class="navbar-nav">
-            <p class="name">ROBBY ARSYADANI</p>
-            <a style="margin-left:550px"; href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#Contact">Contact</a>
-            <span style="margin-left: 50px;color: #ffff">|</span>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </nav>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg shadow-sm sticky-top" data-bs-theme="dark" style="background-color: #1f64b2;">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-weight: 1000;">Robby Arsyadani</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--navbar-->
+
+<!--jumbotron-->
+<section class="jumbotron text-center">
+  <img src="img/IMG20230721095708-removebg-preview.png" alt="robby arsyadani" width="250" class="rounded-circle img-thumbnail">
+  <h1 class="display-4 fw-bold">Robby Arsyadani</h1>
+  <p class="lead fw-bold">Front-end Developer</p>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,112C384,139,
+    480,213,576,202.7C672,192,768,96,864,85.3C960,75,1056,149,1152,181.3C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,
+    320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+<!--jumbotron-->
+
+<!--about-->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3 fw-bold">
+                <div class="col">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center   fs-5" style="text-align: justify;">
+                <div class="col-md-4 mb-3">
+                  Halo, nama saya Robby Arsyadani. Saya ingin memperkenalkan diri sebagai seorang yang tertarik untuk menjadi front end developer. Saya merasa bahwa kemampuan dalam mengembangkan bagian depan suatu website adalah cara yang menarik untuk menggabungkan keterampilan teknis dengan kreativitas.
+
+                  Saya sudah mempelajari bahasa-bahasa seperti HTML, CSS, dan JavaScript, serta prinsip-prinsip dasar responsivitas dan desain yang baik.Saya percaya bahwa pengalaman pengguna yang baik sangat tergantung pada bagaimana antarmuka ditempatkan dan diimplementasikan.
+                </div>
+                <div class="col-md-4">
+                  Saya senang bekerja dalam tim dan siap untuk terus belajar dari mereka yang memiliki pengalaman lebih dalam bidang ini. Saya berharap dapat terus mengembangkan keterampilan saya dan memberikan kontribusi yang bermanfaat dalam proyek-proyek pengembangan web di masa depan.
+
+                  Terima kasih atas kesempatannya untuk memperkenalkan diri. Saya menantikan peluang untuk berkembang dan terlibat dalam dunia front end development.
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L24,149.3C48,139,96,117,144,106.7C192,96,240,96,288,117.3C336,139,384,181,432,213.3C480,245,528,267,576,272C624,277,672,267,720,229.3C768,192,816,128,864,128C912,128,960,192,1008,224C1056,256,1104,256,1152,240C1200,224,1248,192,1296,181.3C1344,171,1392,181,1416,186.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+    </section>
+<!--akhir about-->
+
+<!--projects-->
+<section id="projects">
+  <div class="container">
+    <div class="row text-center mb-3 fw-bold">
+      <div class="col">
+        <h2>My Projects</h2>
+      </div>
     </div>
 
-
-    <!--about-->
-    <div id="about">
-        <div class="circle-shape"></div>
-        <div class="teks-about-left">
-            <p class="teks-about">Frontend <span style="display: block;">Developer<span style="color: rgb(241, 141, 19);font-size:40px;">.</span></p>
-            <p>Instagram | lorem</p>
-            <p>Linkedin | lorem</p><br>
-            <button class="button-hai">Hello</button>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-
-        <div class="teks-about-right">
-            <p style="font-size: larger; color:rgb(239, 163, 70);">Introduction</p>
-            <p>My name is Robby Arsyadani studying at president university majoring in Information Technology,
-               and I am very excited about developing a career as a Frontend Developer. I have gained basic knowledge in programming languages 
-               such as HTML, CSS and JavaScript. I also have a good understanding of popular frameworks like React and Angular. I'm always looking for opportunities to continue learning and keep up to date with the latest developments in the technology industry. Currently, I'm looking for an internship opportunity as a Frontend Developer which will give me the opportunity to gain practical experience in web development. I am confident that this internship will broaden my knowledge and skills,
-               as well as allow me to work with experienced professionals in this field.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
-        <img class="img-profile" src="img/IMG20230721095708-removebg-preview.png" alt="">
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L48,234.7C96,245,192,267,288,261.3C384,256,480,224,576,224C672,224,768,256,864,250.7C960,245,1056,203,1152,186.7C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+<!--akhir projects-->
 
-
-    <!--contact us-->
-    <div id="contact">
-        <p>Contact us</p>
-
-        <div class="email">
-            <span class="fa fa-envelope"> | robbyarsyadani152@gmail.com</span>
-        </div>
-
-        <div class="whatsapp">
-            <span class="fa fa-whatsapp"> | 082123600931</span>
-        </div>
-
-        <div class="linkedin">
-            <span class="fa fa-linkedin"> | Robby Arsyadani</span>
-        </div>
+<!--contact me-->
+<section id="contact">
+  <div class="container">
+    <div class="row text-center mb-3 fw-bold">
+      <div class="col"><h2>Contact</h2></div>
     </div>
+    <div class="row text-center fs-6">
+      <div class="col-md-3 mb-3"> <a href="mailto:robbyarsyadani152@gmail.com" class="bi bi-envelope"> | robbyarsyadani152@gmail.com </a></div>
+      <div class="col-md-3 mb-3"> <a href="https://github.com/RobbyArsyadani" class="bi bi-github"> | https://github.com/RobbyArsyadani </a></div>
+      <div class="col-md-3 mb-3"> <a href="https://www.linkedin.com/in/robby-arsyadani-bba10221b" class="bi bi-linkedin"> | https://www.linkedin.com/in/robby-arsyadani-bba10221b/</a></div>
+      <div class="col-md-3 mb-3"> <a href="whatsapp://send?text=Hello&phone=+6282123600931" class="bi bi-whatsapp"> | 082123600931</a></div>
+    </div>
+  </div>  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,64L40,80C80,96,160,128,240,165.3C320,203,400,245,480,272C560,299,640,309,720,266.7C800,224,880,128,960,101.3C1040,75,1120,117,1200,133.3C1280,149,1360,139,1400,133.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+</section>
 
+
+<!--akhir contact me-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
 </body>
 </html>
